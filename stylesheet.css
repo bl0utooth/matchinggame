@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(232, 191, 79)
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 150px); 
+    grid-gap: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(21, 107, 26)
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    display: no;
+    justify-content: center;
+    align-items: center;
+}
+
